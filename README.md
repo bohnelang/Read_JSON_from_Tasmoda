@@ -1,4 +1,4 @@
-# Read data in JSON forma from a Tasmoda device 
+# Read data in JSON format from a Tasmoda device 
 
 Read Data in JSON froamt from any tasmoda device
 
