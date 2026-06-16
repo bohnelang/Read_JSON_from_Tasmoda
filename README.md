@@ -2,21 +2,22 @@
 Read Data in JSON froamt from any tasmoda device
 
 While enabled API access, you can read device data in mashine friendly format by this URL:
-´´´
+
+```
 http://<IP>/cm?cmnd=Status+0
-´´´
+```
 
 In PHP you can fetch the data in few lines of code. PHP convert it to objects that can be easyly accessed:
 
-´´´
+```
 E.g. the total energy you get from grid:
 
 $data->StatusSNS->Strom->Total_in
-´´´
+```
 
 This is an example for the data fraom a enery meter with an optical interface:
 
-´´´
+```
 stdClass Object
 (
     [Status] => stdClass Object
@@ -248,4 +249,4 @@ stdClass Object
 
 )
 
-´´´
+```
