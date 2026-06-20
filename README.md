@@ -251,3 +251,13 @@ stdClass Object
 )
 
 ```
+
+Quite hilpful ist the setting of a fix IP (in contrast to getting the IP number by DHCP). Therefore you can do this by console:
+```
+    Click console menu
+
+    Enter this lines of code:
+    savedata 1
+    ipaddress1 192… (you fix IP address)
+    savedata 0
+```
